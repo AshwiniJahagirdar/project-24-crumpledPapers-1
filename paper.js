@@ -11,7 +11,7 @@ var options={
 
 this.x=400;
 this.y=620,
-this.r=20;
+this.r=12;
 this.body=Bodies.circle(this.x,this.y,this.r,options);
 World.add(world,this.body);
 
